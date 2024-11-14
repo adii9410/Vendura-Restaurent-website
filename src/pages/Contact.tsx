@@ -108,21 +108,21 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-green-400" />
-                  <span>123 Gourmet Street, Culinary District</span>
+                  <span> Near metro station,New Delhi</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-green-400" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 123-456-7890</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-green-400" />
-                  <span>reservations@verdura.com</span>
+                  <span>https://vendurabyadi.netlify.app</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Clock className="w-6 h-6 text-green-400" />
                   <div>
-                    <p>Mon-Fri: 5:30 PM - 10:30 PM</p>
-                    <p>Sat-Sun: 5:00 PM - 11:00 PM</p>
+                    <p>Mon-Fri: 10:00 AM - 10:00 PM</p>
+                    <p>Sat-Sun: 10:00 AM - 12:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function Contact() {
               <h3 className="text-xl font-semibold mb-4">Reservations</h3>
               <p className="text-gray-300 mb-4">
                 For parties of 6 or more, please call us directly to make a reservation.
-                We recommend booking at least two weeks in advance.
+                We recommend booking at least two days in advance.
               </p>
               <button 
                 onClick={handleBookTable}
